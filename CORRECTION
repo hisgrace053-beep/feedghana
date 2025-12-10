@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feed Ghana Poultry Farm</title>
+
+<style>
+body { font-family: Arial, sans-serif; margin: 0; background:#f9f9f9; color:#222; }
+header { background:#006400; color:#fff; padding:20px; position:relative; text-align:center; }
+.ghana-flag { position:absolute; right:12px; top:12px; width:55px; }
+.container { max-width:980px; margin:20px auto; padding:15px; }
+h1,h2,h3 { margin:0 0 12px 0; color:#006400; }
+.price-card { background:#fff; border-radius:8px; padding:12px; display:flex; gap:15px; align-items:center; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin-bottom:12px; }
+.price-card img { width:110px; height:84px; object-fit:cover; border-radius:6px; border:1px solid #e6e6e6; }
+.price-card .text { font-size:18px; font-weight:700; }
+.info { background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.06); margin-top:12px;}
+.map { width:100%; height:320px; border-radius:8px; border:1px solid #ccc; margin-top:12px; overflow:hidden;}
+.whatsapp-btn { display:block; width:92%; max-width:420px; margin:20px auto; background:#25D366; color:#fff; text-align:center; padding:14px; border-radius:8px; text-decoration:none; font-weight:700; box-shadow:0 3px 8px rgba(0,0,0,0.12);}
+footer { text-align:center; color:#666; padding:18px; margin-top:18px; }
+@media (max-width:600px){ .price-card{flex-direction:row} .price-card img{width:90px;height:70px}}
+</style>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1N5G0WQD6H"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1N5G0WQD6H');
+</script>
+</head>
+
+<body>
+<header>
+  <h1>Feed Ghana Poultry Farm</h1>
+  <img class="ghana-flag" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg" alt="Ghana Flag">
+</header>
+
+<div class="container">
+<h2>Fresh Egg Price List</h2>
+
+<!-- Small -->
+<div class="price-card">
+  <img src="https://images.unsplash.com/photo-1580927752452-89d143401e07?auto=format&fit=crop&w=800&q=60" alt="Small eggs">
+  <div class="text">Small — ¢31 per crate</div>
+</div>
+
+<!-- Medium -->
+<div class="price-card">
+  <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=60" alt="Medium eggs">
+  <div class="text">Medium — ¢33 per crate</div>
+</div>
+
+<!-- Large -->
+<div class="price-card">
+  <img src="https://images.unsplash.com/photo-1587486913049-53fc9d810f3b?auto=format&fit=crop&w=800&q=60" alt="Large eggs">
+  <div class="text">Large — ¢35 per crate</div>
+</div>
+
+<!-- Jumbo -->
+<div class="price-card">
+  <img src="https://images.unsplash.com/photo-1602872029937-8916931b7d85?auto=format&fit=crop&w=800&q=60" alt="Jumbo eggs">
+  <div class="text">Jumbo — ¢38 per crate</div>
+</div>
+
+<!-- Double Yolk -->
+<div class="price-card">
+  <img src="https://images.unsplash.com/photo-1607330291073-b3cda5bdc055?auto=format&fit=crop&w=800&q=60" alt="Double yolk eggs">
+  <div class="text">Double Yolk — ¢41 per crate</div>
+</div>
+
+<div class="info">
+<h3>Order & Delivery Info</h3>
+<p>📦 Delivery every <strong>2 days</strong></p>
+<p>💰 Existing customers: <strong>Payment on delivery</strong></p>
+<p>🆕 New customers: <strong>Payment before delivery</strong></p>
+</div>
+
+<h3>Find Us</h3>
+<div class="map">
+<iframe width="100%" height="100%" frameborder="0" scrolling="no"
+src="https://www.openstreetmap.org/export/embed.html?bbox=-0.858083%2C9.214453%2C-0.838083%2C9.234453&layer=mapnik&marker=9.224453,-0.848083">
+</iframe>
+</div>
+
+<a class="whatsapp-btn" href="https://wa.me/233202873382" target="_blank"
+onclick="gtag('event','click',{'event_category':'Order','event_label':'WhatsApp'});">
+Chat & Order on WhatsApp
+</a>
+
+<footer>© 2025 Feed Ghana Poultry Farm — 0202873382</footer>
+</div>
+</body>
+</html>
